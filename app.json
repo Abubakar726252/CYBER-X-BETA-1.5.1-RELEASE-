@@ -1,137 +1,77 @@
 {
-  "name": "CYBER-X 1.5 BETA",
-  "description": "ᴄʏʙᴇʀ-x ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ",
-  "repository": "https://github.com/Abubakar726252/CYBER-X-BETA-1.5.1-RELEASE-",
-  "logo": "https://telegra.ph/file/0c126ae19dca72ab0cae0.jpg",
-  "keywords": ["nodejs", "Bot", "WhatsApp Bot", "WhatsApp Automation", "Multi Device"],
-   "env": {
-          	"SUDO_NUMBER": {
-			"description": "Add the owner number here",
-			"required": true,
-			"value": "94711421243"
-		    },
-		    "BOT_NAME": {
-			"description": "Change the bot Name here",
-			"required": true,
-			"value": "CYBER-X BETA 1.5"
-			},
-			"BOT_NUMBER": {
-			"description": "Change the Bot Number",
-			"required": true,
-			"value": "94778962038"
-			},
-			"STICKERS_NAME": {
-			"description": "Add the Stickers Name",
-			"required": true,
-			"value": "ᴋɪɴɢ.ᴅᴀʀᴋ ᴀʟᴘʜᴀ"
-			},
-			"OWNER_NAME": {
-			"description": "Add Your Name",
-			"required": true,
-			"value": "ᴅᴀʀᴋ ᴀʟᴘʜᴀ"
-			},
-			"FOOTER": {
-			"description": "Add Your Button Massage's Footer",
-			"required": true,
-			"value": "ᴄʏʙᴇʀ-x ʙᴇᴛᴀ ʀᴇʟᴇᴀꜱᴇ"
-			},
-			"ALIVE_IMAGE": {
-			"description": "Add Your Alive Image Derect Link",
-			"required": true,
-			"value": "https://telegra.ph/file/bd50f0727084519bf78e9.jpg"
-			},
-			"ALIVE_MSG": {
-			"description": "Add Your Alive massage",
-			"required": true,
-			"value": "Hellow I'm Alive"
-			},
-			"MENU_IMAGE": {
-			"description": "Add Your Name",
-			"required": true,
-			"value": "https://telegra.ph/file/bd50f0727084519bf78e9.jpg"
-			},
-			"WELCOME_IMAGE": {
-			"description": "Add Your Welcome Image",
-			"required": true,
-			"value": "https://telegra.ph/file/ec6ee52c715d16837c7ca.jpg"
-			},
-			"GOODBYE_IMAGE": {
-			"description": "Add Your Goodbye Image",
-			"required": true,
-			"value": "https://telegra.ph/file/4a576ba9ee45994d62aaa.jpg"
-			},
-			"CAPTION": {
-			"description": "Add Your Downloaded Video's Caption",
-			"required": true,
-			"value": "ʙʏ ᴄʏʙᴇʀ-x ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ"
-			},
-			"YOUR_WEB": {
-			"description": "Add Your web or a nother Link",
-			"required": true,
-			"value": "https://github.com/darkalphaxteam"
-			},
-			"PREMIUM_NUMBER" : {
-			"description": "Add your Number For unlock all Bot Features",
-			"required": true,
-			"value": "94711421243"
-			},
-			"SONGUP_MSG": {
-			"description": "Add Massage For Song Uploading",
-			"required": true,
-			"value": "UPLOADING YOUR SONG PLEASE WAIT..."
-			},
-			"WELCOME_GOODBYE": {
-			"description": "Set 'true' if you want the Welcome and Goodbye massages  add 'false' if you don't",
-			"required": true,
-			"value": "true"
-			},
-			"DEPLOYER_NAME": {
-			"description": "Add Your Name",
-			"required": true,
-			"value": "DARK ALPHA"
-			},
-			"LOCATION": {
-			"description": "Add Your Location",
-			"required": true,
-			"value": "Sri Lanka, Kurunagala, Nikaweratiya"
-			},
-			"CALL_BLOCK": {
-			"description": "Call Block system",
-			"required": true,
-			"value": "false"
-			},
-			"AUTO_BGM": {
-			"description": "Auto BGM Reply System",
-			"required": true,
-			"value": "true"
-			},
-			"THEME_EMOJI": {
-			"description": "Add Your Favorite Emoji",
-			"required": true,
-			"value": "⛽"
-			},
-			"INBOX_MSG": {
-			"description": "Add Your Inbox Back Massage",
-			"required": true,
-			"value": "*ᴄʏʙᴇʀ-x ᴍᴅ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ ᴏɴʟʏ ᴡᴏʀᴋɪɴɢ ɪɴ ɢʀᴏᴜᴘꜱ*"
-			}
-			
-          },
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
+  "name": "Queen Anya Ver.2",
+  "description": "Anya_v2-MD is an efficient and versatile WhatsApp bot designed to streamline your messaging experience with innovative features and seamless automation.",
+  "repository": "https://github.COM/PikaBotz/Anya_v2-MD",
+  "logo": "https://i.ibb.co/bgfFFjF/Videoshot-20221026-164328.jpg",
+  "keywords": ["Automation", "Innovation", "Versatility", "Efficiency", "Messaging", "Chatbot", "Integration", "Customization", "Ease of Use", "Personalization"],
+  "success_url": "/",
+  "stack": "container",
+  "env": {
+       "BotName": {
+           "description": "Enter your desired bot\"s name (Ex:- Queen Anya)",
+           "required": true
+       },
+       "Footer": {
+           "description": "Enter a watermark for your bot\"s messages (Ex:- ? Queen Anya)",
+           "required": true
+       },
+       "Prefix": {
+           "description": "Enter a specific prefix for your bot, except @, ?, +",
+           "required": true
+       },
+       "Owner_Name": {
+           "description": "Enter a name for bot\"s owner (Ex:- Pika~Kun)",
+           "required": true
+       },
+       "Owner_Number": {
+           "description": "Enter owner\"s number of the bot (Ex:- 918811xxxxxx)",
+           "required": true
+       },
+       "MongoDB": {
+           "description": "Get your mongoDB url from mongoDB website",
+           "required": true
+       },
+       "SESSION_ID" : {
+           "description": "Get your session id first, if you already have then paste here",
+           "required": true
+       },
+       "Insta": {
+           "description": "Enter your Instagram user Id (Ex:- 3.69_pika)",
+           "required": false
+       },
+       "Author": {
+           "description": "Enter a name for sticker\"s owner name (Ex:- PikaBotz)",
+           "required": false
+       },
+       "PackName": {
+           "description": "Enter a packname for stickers (Ex:- Queen Anya Stickers)",
+           "required": false
+       },
+       "Web": {
+           "description": "Enter your any social platform link (Ex:- https://github.com/PikaBotz)",
+           "required": false
+       },
+       "ThemeEmoji": {
+           "description": "Enter a desired emoji according to your theme (Ex:- ?)",
+           "required": false
+       },
+       "Warns_Limits": {
+           "description": "Enter the limit of warns for users (Ex:- 3)",
+           "required": false
+       },
+       "Welcome_Msg": {
+           "description": "Welcome message for users in groups, $user for user, $prefix for prefix",
+           "required": false
+       },
+       "Left_Msg": {
+           "description": "Goodbye message for users in groups, $user for user, $prefix for prefix",
+           "required": false
+       }
     },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    },
-    {
-      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
-    }
-  ],
    "formation": {
         "worker": {
             "quantity": 1,
-            "size": "free"
+            "size": "basic"
         }
     }
 }
